@@ -1,0 +1,9 @@
+name,kind,limit
+Транспорт,expense,5000
+Продукты,expense,25000
+Развлечения,expense,5000
+Образование,expense,5000
+Жилье,expense,26000
+Зарплата,income
+Фриланс,income
+Рандомный доход,income
