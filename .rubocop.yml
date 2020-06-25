@@ -1,0 +1,37 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  DisplayCopNames: true
+  Exclude:
+    - "bin/**/*"
+    - "db/migrate/**/*"
+    - "db/schema.rb"
+    - "config/application.rb"
+    - "config/spring.rb"
+    - "vendor/**/*"
+
+Rails:
+  Enabled: true
+
+Style/LambdaCall:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 15
+
+Rails/UnknownEnv:
+  Environments:
+    - development
+    - test
+    - production
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*.rb"
+    - "config/routes.rb"
+
+Metrics/ModuleLength:
+  Exclude:
+    - "spec/**/*.rb"

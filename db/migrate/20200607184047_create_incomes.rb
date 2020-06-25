@@ -5,6 +5,7 @@ class CreateIncomes < ActiveRecord::Migration[6.0]
       t.belongs_to :user, foreign_key: true
       t.string :name, null: false
       t.decimal :amount, null: false
+      t.string :comment
       t.datetime :date
 
       t.timestamps

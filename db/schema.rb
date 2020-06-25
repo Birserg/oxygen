@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 2020_06_07_184047) do
     t.bigint "user_id"
     t.string "name", null: false
     t.decimal "amount", null: false
+    t.string "comment"
     t.datetime "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -51,8 +52,9 @@ ActiveRecord::Schema.define(version: 2020_06_07_184047) do
   create_table "users", force: :cascade do |t|
     t.string "first_name", null: false
     t.string "last_name", null: false
-    t.string "patronimyc"
+    t.string "patronymic"
     t.string "email", null: false
+    t.string "password"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

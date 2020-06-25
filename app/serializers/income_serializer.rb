@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ExpenseSerializer #:nodoc:
+class IncomeSerializer #:nodoc:
   include FastJsonapi::ObjectSerializer
 
   attributes :id, :name, :amount, :comment, :date

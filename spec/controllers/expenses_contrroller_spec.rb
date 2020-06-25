@@ -2,7 +2,7 @@
 
 RSpec.describe ExpensesController do #:nodoc:
   let(:user) { create(:user) }
-  let(:category) { create(:category, type: :expense) }
+  let(:category) { create(:category, kind: :expense) }
   let!(:expense) { create(:expense, user: user, category: category) }
   let(:json_body) { JSON.parse(subject.body) }
 

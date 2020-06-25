@@ -1,4 +1,8 @@
 name,kind,limit
+Коммунальные услуги,expense
+Штрафы,expense
+Мобильная связь,expense
+Интернет,expense
 Транспорт,expense,5000
 Продукты,expense,25000
 Развлечения,expense,5000
@@ -7,3 +11,6 @@ name,kind,limit
 Зарплата,income
 Фриланс,income
 Рандомный доход,income
+Рандомный расход,expense
+Входящий перевод,income
+Исходящий перевод,expense
